@@ -26,6 +26,7 @@ declare namespace ReactSwipe {
     interface Props {
         id?: string;
         swipeOptions?: SwipeOptions;
+        childCount?: number;
         style?: Style;
         className?: string;
     }
